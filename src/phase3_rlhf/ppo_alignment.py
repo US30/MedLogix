@@ -17,8 +17,8 @@ def main():
    # 1. Setup PPO Configuration (Updated for latest TRL)
     config = PPOConfig(
         learning_rate=1.41e-5,
-        batch_size=2, # Tiny batch for Mac Memory
-        mini_batch_size=2,
+        batch_size=1, # Tiny batch for Mac Memory
+        mini_batch_size=1,
         #optimize_device_cache=True,
     )
 
