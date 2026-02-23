@@ -1,0 +1,10 @@
+langchain==0.1.16
+langchain-community==0.0.34
+langchain-huggingface==0.0.1
+chromadb==0.4.24
+sentence-transformers==2.7.0
+torch>=2.2.0
+transformers==4.40.1
+accelerate==0.29.3
+bitsandbytes>=0.42.0
+pandas==2.2.2
