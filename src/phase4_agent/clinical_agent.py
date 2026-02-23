@@ -33,7 +33,7 @@ def main():
         model=model,
         tokenizer=tokenizer,
         max_new_tokens=256,
-        temperature=0.1, # Low temperature because SQL requires strict factual syntax
+        do_sample=False, # <-- FIX: Use Greedy Decoding to avoid MPS math errors!
         return_full_text=False
     )
     llm = HuggingFacePipeline(pipeline=pipe)
