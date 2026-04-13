@@ -1,0 +1,27 @@
+# --- Core Deep Learning & LLM ---
+torch>=2.1.0
+transformers>=4.40.0
+accelerate
+bitsandbytes
+peft
+trl
+
+# --- RAG & Vector Database (Phase 1) ---
+chromadb
+sentence-transformers
+langchain
+langchain-community
+
+# --- Data Handling & Downloading ---
+datasets
+kagglehub
+pandas
+numpy
+pyarrow
+
+# --- Evaluation Metrics ---
+rouge-score
+bert-score
+
+# --- Web Interface (Phase 5) ---
+streamlit
